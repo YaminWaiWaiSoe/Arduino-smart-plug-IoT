@@ -8,7 +8,7 @@
 #include <sstream> // use stringstream class  
 using namespace std;
 
-#define BLYNK_AUTH_TOKEN "AHT6dFeXnZlZ6OTqpGZrutq4epeQI4ka"
+#define BLYNK_AUTH_TOKEN "????????????????????????????????"  // blynk token
 
 // Comment this out to disable prints and save space
 #define BLYNK_PRINT Serial
@@ -19,8 +19,8 @@ using namespace std;
 int pin = 36; //PIR sensor
 
 int standardTem = 50;  // temperature threshold 20
-String device = "80066E897D89BD33DADAFAADA7D164271CD541EC";//"80066E897D89BD33DADAFAADA7D164271CD541EC";
-String token = "73491a80-BT4p7pwDRZiRaW6YzhrhPDk";//"73491a80-BTFio6aEaKhRvzP65r8faRz";
+String device = "????????????????????????????????????????";  // smart plug device ID
+String token = "????????????????????????????????";  // smart plug device token
 
 String serverPath = "https://eu-wap.tplinkcloud.com/?token="+token;
 
@@ -28,8 +28,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid =  "microlab_IoT"; //"BT-8GA8R2";  // wifi name
-const char* password = "shibboleet"; //"k6FRiRqktadYDx";
+const char* ssid =  "???";  // wifi name
+const char* password = "???"; // wifi password
 
 unsigned long previousMillis = 0;  // for wifi reconnection
 unsigned long interval = 30000; 
@@ -67,7 +67,7 @@ BLYNK_WRITE(V1)
 void blynkValue(){
   HTTPClient http;
 
-  String server = "http://139.59.206.133/AHT6dFeXnZlZ6OTqpGZrutq4epeQI4ka/get/V1";
+  String server = "http://??????/get/V1";  
       // Your Domain name with URL path or IP address with path
   http.begin(server);
   int httpResponseCode = http.GET();
@@ -102,7 +102,7 @@ void blynkValue(){
 void blynkMode(){
   HTTPClient http;
 
-  String server = "http://139.59.206.133/AHT6dFeXnZlZ6OTqpGZrutq4epeQI4ka/get/V0";
+  String server = "http://????/get/V0";
       // Your Domain name with URL path or IP address with path
   http.begin(server);
   int httpResponseCode = http.GET();
