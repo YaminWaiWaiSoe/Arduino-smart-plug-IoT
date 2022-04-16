@@ -7,4 +7,16 @@ Control TP-Link smart plugs with an Arduino and FireBettle Esp 32. I tested with
 In order to control the smart plugs, you need to get your TP-Link KASA token from your account, the endpoint URL for your smart plugs, and the deviceId of them as well.
 
 ### TP-Link KASA token
-The first step is to get the smart plug token by using POST request to https://wap.
+The first step is to get the smart plug token by using POST request to https://wap.tplinkcloud.com as following:
+
+{
+  "method": "login",
+  "params": {
+    "appType": "Kasa_Android",
+    "cloudUserName": "XXXXXXX",
+    "cloudPassword": "XXXXXXX",
+    "terminalUUID": "UUIDv4"
+   }
+}
+
+Replace XXXXXXX with your TP-Link KASA account credentials and UUIDv4, you can generate 
