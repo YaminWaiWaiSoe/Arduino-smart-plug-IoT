@@ -35,7 +35,8 @@ To connect with blynk, you need the token where you will get it in your email se
 ## Arduino File
 I control TP-Link smart plugs according to the sensors data which are room temperature (DHT11 sensor) and human detection (PIR sensor) to be efficienct in energy usage. If the room temperature is lower than normal room temperature (20C) and human excits in the room, then our smart plug turns on otherwise turn off. Condition to control the smart plug is default by 20C, however you can update it with the user interaction by Blynk app. Here we have a button which control default mode or user mode and user desired temperature textbox. 
 
-![IMG_20220405_211939 (1)](https://user-images.githubusercontent.com/47670208/163712456-1d43d415-fe28-4300-a946-67d718b51bd8.jpg)
+![IMG_20220405_211939 (1)](https://user-images.githubusercontent.com/47670208/163713791-9c22c6cc-3c40-47ad-8538-576a82f32d66.jpg)
+
 
 #### Blynk app 
 ![Screenshot_20220405_232135 (1)](https://user-images.githubusercontent.com/47670208/163713775-ec99e055-0778-40a1-b73b-1184a2f2a9d7.jpg)
