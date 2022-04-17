@@ -19,8 +19,8 @@ The first step is to get the smart plug token by using POST request to https://w
    }
 }
 ```
-<p align="justify">
-Replace XXXXXXX with your TP-Link KASA account credentials and UUIDv4, you can generate one [here](https://www.uuidgenerator.net/version4). POST request can be done in [this site](https://pipedream.com/). Under destination, change GET to POST and the destination URL is https://wap.tplinkcloud.com, add a header name called Content-type with the value of application/json, under parameters, click on add body and copy the block of code above with your information, and click on Launch Request. If all went well, you should get a JSON response from the server and your TP-Link Kasa token will be in that data. You will need to change the string called "token" in the ardunio file to your account token.
+
+Replace XXXXXXX with your TP-Link KASA account credentials and UUIDv4, you can generate one [here](https://www.uuidgenerator.net/version4). <p align="justify">POST request can be done in [this site](https://pipedream.com/). Under destination, change GET to POST and the destination URL is https://wap.tplinkcloud.com, add a header name called Content-type with the value of application/json, under parameters, click on add body and copy the block of code above with your information, and click on Launch Request. If all went well, you should get a JSON response from the server and your TP-Link Kasa token will be in that data. You will need to change the string called "token" in the ardunio file to your account token.
 </p>
 
 ### DeviceId
