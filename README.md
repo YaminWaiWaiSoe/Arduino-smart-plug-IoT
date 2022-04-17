@@ -38,6 +38,10 @@ I control TP-Link smart plugs according to the sensors data which are room tempe
 ![IMG_20220405_211939 (1)](https://user-images.githubusercontent.com/47670208/163712456-1d43d415-fe28-4300-a946-67d718b51bd8.jpg)
 
 #### Blynk app 
-![Screenshot_20220405_232135 (1)](https://user-images.githubusercontent.com/47670208/163712512-9f958a71-9e11-44c4-94fc-b62b2b2ea5ee.jpg)
+![Screenshot_20220405_232135 (1)](https://user-images.githubusercontent.com/47670208/163713775-ec99e055-0778-40a1-b73b-1184a2f2a9d7.jpg)
+
+
+## Video Demonstration
+You can watch the video demonstration here, https://www.youtube.com/watch?v=MfTWHow1oHI.
 
 
