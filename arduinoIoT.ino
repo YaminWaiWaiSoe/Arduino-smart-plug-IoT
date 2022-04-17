@@ -224,7 +224,7 @@ void loop() {
       standardTem = pinValue;
     }
     else{
-      standardTem = 0; // actual 20 and change condition <
+      standardTem = 20; // normal room temperature in uk
     }
     Serial.print("Temp Threshold: ");
     Serial.println(standardTem);
